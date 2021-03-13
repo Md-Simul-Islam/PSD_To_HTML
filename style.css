@@ -1,0 +1,171 @@
+.header-area{
+    overflow: hidden;
+    text-align: center;
+    padding:15px 0px;
+}
+.contianer{
+    max-width: 1140px;
+    width:100%;
+    margin:auto;
+}
+
+
+.content-area {
+	height: 900px;
+	width: 100%;
+	background: rgb(218, 213, 213);
+}
+
+.bannar{
+ background:url('image/header.png');
+ padding:110px 65px;
+ margin-left:56px;
+ margin-right:56px;
+ color:#FFFFFF;
+ position:relative;
+ 
+}
+.bannar h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.bannar ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.bannar ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding:10px; 
+    position:relative;
+    padding-left:25px;
+}
+.bannar ul li:after{
+    content:'';
+    height:4px;
+    width:20px;
+    position:absolute;
+    background:darkblue;
+    top:32%;
+    left:0;
+}
+.description{
+    background:#fff;
+    margin-left:56px;
+    width:65%;
+    overflow: hidden;
+    box-sizing: border-box;
+   
+}
+.desco{
+    width:30%;
+    float:left;
+    overflow:hidden;
+    margin-right:2%;
+
+   
+}
+.desco h4{
+    text-align:left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color:#0072bc;
+    padding:5px;
+   
+}
+.desco p {
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	padding: 5px;
+	color: #6b6b6b;
+	font-size: 13px;
+	line-height: 2;
+}
+.form-design {
+	width: 369px;
+	overflow: hidden;
+	background: black;
+	border-radius: 1rem;
+	height: 300px;
+	margin: auto;
+	position: absolute;
+	top: 56%;
+	right: 61px;
+}
+.form-head{
+    background:url('image/head.jpg');
+    padding:15px opx;
+}
+.form-head h4,h5{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+    text-transform: uppercase;
+    padding:2px;
+
+}
+.form-input{
+    box-sizing: border-box;
+    padding:15px;
+}
+.form-left{
+    width:45%;
+    float:left;
+    
+    
+}
+.form-right{
+    width:40%;
+    float:right;
+    padding-right:5px;
+    overflow:hidden;
+    box-sizing: border-box;
+    margin-left:10px;
+}
+.space{
+    margin-bottom:15px;
+    padding:5px;
+}
+.right{
+    margin-bottom: 15px;
+    width:100%;
+    padding:5px;
+}
+.btn{
+    background:blue;
+    margin-top:30px;
+    border-radius:0.1rem;
+    color:white;
+    text-transform:uppercase;
+    width:80px;
+
+}
+.footer ul{
+    list-style: none;
+
+}
+.footer ul li{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 2px 30px;
+    display: inline;
+    
+}
+.footer ul li i{
+    color:white;
+}
+
+
+.fa-phone{
+    background:  #121ca1;
+    padding:5px;
+}
+.fa-envelope{
+    background:  #121ca1;
+    padding:5px;
+}
+@media(class )
